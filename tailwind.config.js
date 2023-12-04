@@ -27,6 +27,7 @@ export default {
     },
     fontFamily: {
       Josefin: ['Josefin Sans', "sans-serif"],
+      Playfair: ['Playfair Display', "sans-serif"],
     },
     extend: {
     },
