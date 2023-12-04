@@ -8,6 +8,10 @@ import MarketPlace from './components/view/MarketPlace'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CategoryNavTabs from './components/view/CategoryNavTabs'
+import UpcommingCard from './components/view/UpcommingCard'
+import BackToTop from './components/common/BackToTop'
+import LoaderHome from './components/common/LoaderHome'
+import LatestNews from './components/view/LatestNews'
 function App() {
 
 
@@ -19,6 +23,10 @@ function App() {
       <ExploreNft />
       <MarketPlace />
       <CategoryNavTabs/>
+      <UpcommingCard/>
+      {/* <LatestNews/> */}
+      <BackToTop/>
+      <LoaderHome/>
     </div>
   )
 }

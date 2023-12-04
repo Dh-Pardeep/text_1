@@ -73,7 +73,7 @@ const CategoryNavTabs = () => {
                                                     </div>
                                                 </div>
                                                 <div className='mt-4 text-center'>
-                                                    <button className='bg-transparent border-[1px] border-solid text-[#707070] border-[#707070] rounded-3xl h-[30px] w-[125px] text-xmd' >
+                                                    <button className='bg-transparent border-[1px] border-solid text-[#707070] border- [#707070] font-Josefin rounded-3xl h-[30px] w-[125px] text-xmd' >
                                                         {data.buynow}
                                                     </button>
                                                 </div>
@@ -104,7 +104,7 @@ const CategoryNavTabs = () => {
                                                 </div>
                                             </div>
                                             <div className='mt-4 text-center'>
-                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border-[#707070] rounded-3xl h-[30px] w-[125px] text-xmd' >
+                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border- [#707070] font-Josefin rounded-3xl h-[30px] w-[125px] text-xmd' >
                                                     {data.buynow}
                                                 </button>
                                             </div>
@@ -134,7 +134,7 @@ const CategoryNavTabs = () => {
                                                 </div>
                                             </div>
                                             <div className='mt-4 text-center'>
-                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border-[#707070] rounded-3xl h-[30px] w-[125px] text-xmd' >
+                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border- [#707070] font-Josefin rounded-3xl h-[30px] w-[125px] text-xmd' >
                                                     {data.buynow}
                                                 </button>
                                             </div>
@@ -164,7 +164,7 @@ const CategoryNavTabs = () => {
                                                 </div>
                                             </div>
                                             <div className='mt-4 text-center'>
-                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border-[#707070] rounded-3xl h-[30px] w-[125px] text-xmd' >
+                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border- [#707070] font-Josefin rounded-3xl h-[30px] w-[125px] text-xmd' >
                                                     {data.buynow}
                                                 </button>
                                             </div>
@@ -194,7 +194,7 @@ const CategoryNavTabs = () => {
                                                 </div>
                                             </div>
                                             <div className='mt-4 text-center'>
-                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border-[#707070] rounded-3xl h-[30px] w-[125px] text-xmd' >
+                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border- [#707070] font-Josefin rounded-3xl h-[30px] w-[125px] text-xmd' >
                                                     {data.buynow}
                                                 </button>
                                             </div>
@@ -207,7 +207,7 @@ const CategoryNavTabs = () => {
                     </div>
                 </div>
                 <div className='text-center mt-3'>
-                    <button className='bg-black border-[1px] border-solid text-white border-[#707070] rounded-3xl h-[36px] w-[137px] text-xmd' >
+                    <button className='bg-black border-[1px] border-solid text-white font-Josefin border-[#707070] rounded-3xl h-[36px] w-[137px] text-xmd' >
                         View more
                     </button>
                 </div>
