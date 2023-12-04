@@ -9,7 +9,7 @@ const Hero = () => {
                 <p className='text-xsm md:text-sm  font-semibold font-Josefin leading-5 break-words text-[#B2B7B8] max-w-[652px] text-center mx-auto'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 <div className='bg-[#D9D9D9] w-[160px] h-[160px] md:w-[200px] md:h-[200px] lg:w-[240px] lg:h-[240px] rounded-full mx-auto my-6 md:my-9'></div>
                 <div className='text-center pb-7 md:pb-9'>
-                <Link to="/" onClick={() => setShowNavbar(true)} className='bg-transparent pt-[8px] pb-[3px] px-[17px] rounded-[50px] text-[#8F9697] font-semibold sm:text-sm border-[1px] border-solid border-white  md:text-xmd break-words leading-normal inline-block font-Josefin'>JOIN US</Link>
+                <Link to="/" onClick={() => setShowNavbar(true)} className='bg-transparent pt-[8px] pb-[3px] px-[17px] rounded-[50px] text-[#8F9697] font-semibold sm:text-sm border-[1px] border-solid border-white  md:text-xmd break-words leading-normal inline-block font-Josefin  hover:bg-white hover:text-black hover:shadow-[0px_1px_20px_0px]  transition-all ease-in-out duration-200   hover:border-black  shadow-white '>JOIN US</Link>
                 </div>
             </div>
         </div>

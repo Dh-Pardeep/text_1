@@ -26,7 +26,7 @@ const ExploreNft = () => {
                                                 </div>
                                             </div>
                                             <div className='mt-4 text-center'>
-                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border-[#707070] rounded-3xl h-[30px] w-[125px] text-xmd' >
+                                                <button className='bg-transparent border-[1px] border-solid text-[#707070] border-[#707070] rounded-3xl h-[30px] w-[125px] text-xmd  hover:bg-black hover:text-white   transition-all ease-in-out duration-200  hover:border-black  shadow-black'  >
                                                     {data.buynow}
                                                 </button>
                                             </div>

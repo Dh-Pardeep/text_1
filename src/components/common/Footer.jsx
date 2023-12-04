@@ -48,10 +48,10 @@ const Footer = () => {
                             </div>
                         </div>
                     <ul className=' mt-5 sm:mt-8 flex gap-5  justify-center lg:flex-col lg:justify-start'>
-                        <li><Link className='text-white font-Josefin text-xxsm sm:text-sm font-medium leading-normal inline-block opacity-60'>My Profile</Link></li>
-                        <li><Link className='text-white font-Josefin text-xxsm sm:text-sm font-medium leading-normal inline-block opacity-60 '>Explore</Link></li>
-                        <li><Link className='text-white font-Josefin text-xxsm sm:text-sm font-medium leading-normal inline-block opacity-60 '>News</Link></li>
-                        <li><Link className='text-white font-Josefin text-xxsm sm:text-sm font-medium leading-normal inline-block opacity-60 '>Activity</Link></li>
+                        <li><Link className='text-white font-Josefin text-xxsm sm:text-sm font-medium leading-normal inline-block opacity-60 hover:opacity-100 transition-all ease-linear duration-200'>My Profile</Link></li>
+                        <li><Link className='text-white font-Josefin text-xxsm sm:text-sm font-medium leading-normal inline-block opacity-60 hover:opacity-100 transition-all ease-linear duration-200 '>Explore</Link></li>
+                        <li><Link className='text-white font-Josefin text-xxsm sm:text-sm font-medium leading-normal inline-block opacity-60 hover:opacity-100 transition-all ease-linear duration-200 '>News</Link></li>
+                        <li><Link className='text-white font-Josefin text-xxsm sm:text-sm font-medium leading-normal inline-block opacity-60 hover:opacity-100 transition-all ease-linear duration-200 '>Activity</Link></li>
                     </ul>
                 </div>
                 <p className='mt-7 sm:mt-9 md:mt-11 text-center text-white opacity-50 font-Josefin text-xxsm font-normal leading-normal pb-2' >© Copyright <span id="copyright">{currentYear}</span> Destroyers of Fiat . All Rights Reserved.</p>
