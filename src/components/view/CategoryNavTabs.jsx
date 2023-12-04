@@ -10,8 +10,8 @@ const CategoryNavTabs = () => {
     return (
         <div>
             <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto '>
-                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-24 mb-7 text-center'>Top NFT by Category</h2>
-                <p className='text-black opacity-70 leading-[120%] font-semibold text-sm font-Josefin max-w-[858px] mx-auto text-center mb-16'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12 sm:mt-16 md:mt-20 lg:mt-24 mb-7 text-center'>Top NFT by Category</h2>
+                <p className='text-black opacity-70 leading-[120%] font-semibold text-sm font-Josefin max-w-[858px] mx-auto text-center mb-12  sm:mb-16 '>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
 
                 <div className=" mx-auto">
                     <div className="flex items-center justify-center flex-wrap gap-4 md:gap-6">
@@ -51,7 +51,7 @@ const CategoryNavTabs = () => {
                             <button className='h-10 w-[170px] rounded-[10px] text-black hover:text-white flex justify-center items-center bg-[#D9D9D9] hover:bg-[black] transition-all ease-in-out duration-200 '>Memes</button>
                         </div>
                     </div>
-                    <div className="mt-16">
+                    <div className="mt-12 sm:mt-16 ">
                         {activeTab === 1 && <p>
                             <div className='flex flex-wrap justify-center'>
                                 {MapCardTabsdata.map((data) => {
@@ -207,7 +207,7 @@ const CategoryNavTabs = () => {
                     </div>
                 </div>
                 <div className='text-center mt-3'>
-                    <button className='bg-black border-[1px] border-solid text-white font-Josefin border-[#707070] rounded-3xl h-[36px] w-[137px] text-xmd' >
+                    <button className='bg-black pt-1 border-[1px] border-solid text-white font-Josefin border-[#707070] rounded-3xl h-[36px] w-[137px] text-xmd' >
                         View more
                     </button>
                 </div>

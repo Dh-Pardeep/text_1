@@ -3,7 +3,7 @@ import React from 'react'
 const UpcommingCard = () => {
     return (
         <div>
-            <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto mt-36'>
+            <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto mt-12 sm:mt-16 md:mt-20 lg:mt-24 xl:mt-36'>
                 <div className='w-full flex-col lg:flex-row flex items-center gap-6'>
                     <div className='w-full  lg:w-1/2 '>
                         <div className='upcomming_img_one bg-no-repeat bg-cover bg-center rounded-3xl px-5'>

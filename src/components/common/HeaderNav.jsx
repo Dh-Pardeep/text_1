@@ -35,7 +35,7 @@ const HeaderNav = () => {
                                     <div className='bg-[#D9D9D9] w-[60px] h-[60px] md:w-[75px] md:h-[75px] lg:w-[90px] lg:h-[90px] rounded-full '></div>
                                 </li>
                                 <li className='me-6 relative hidden sm:block lg:hidden'>
-                                    <input type="text" className='bg-transparent ps-9 font-Manrope placeholder:font-Manrope h-[36px] border-[#B3B3B3] border-solid border-[1.5px] w-[185px] py-4 px-2 rounded-full text-black font-bold placeholder:text-xsm md:placeholder:text-sm leading-normal  placeholder:text-[#979898]  placeholder:font-bold placeholder:leading-normal  outline-none' placeholder='Search...' />
+                                    <input type="text" className='bg-transparent ps-9 font-Manrope placeholder:font-Manrope h-[36px] border-[#B3B3B3] border-solid border-[1.5px] w-[185px] py-4 px-2 rounded-full text-[#979898] op font-bold placeholder:text-xsm md:placeholder:text-sm leading-normal  placeholder:text-[#979898]  placeholder:font-bold placeholder:leading-normal  outline-none' placeholder='Search...' />
                                     <div className='absolute top-[10px] start-3'>
                                         <SearchIcon />
                                     </div>
@@ -44,7 +44,7 @@ const HeaderNav = () => {
                             </ul>
                             <ul className={`${showNavbar ? 'flex items-center mb-0 nav_sm p-0' : 'flex items-center mb-0 nav_sm nav_show p-0'} `}>
                                 <li className='me-[60px] hidden lg:block relative'>
-                                    <input type="text" className='bg-transparent ps-9 font-Manrope placeholder:font-Manrope h-[36px] border-[#B3B3B3] border-solid border-[1.5px] w-[185px] py-4 px-2 rounded-full text-black font-bold placeholder:text-xsm md:placeholder:text-sm leading-normal  placeholder:text-[#979898]  placeholder:font-medium placeholder:leading-normal  outline-none' placeholder='Search...' />
+                                    <input type="text" className='bg-transparent ps-9 font-Manrope placeholder:font-Manrope h-[36px] border-[#B3B3B3] border-solid border-[1.5px] w-[185px] py-4 px-2 rounded-full text-[#979898]text-[#979898] font-bold placeholder:text-xsm md:placeholder:text-sm leading-normal  placeholder:text-[#979898]  placeholder:font-medium placeholder:leading-normal  outline-none' placeholder='Search...' />
                                     <div className='absolute top-[10px] start-3'>
                                         <SearchIcon />
                                     </div>

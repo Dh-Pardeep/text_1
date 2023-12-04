@@ -9,7 +9,7 @@ const MarketPlace = () => {
     const slider = React.useRef(null);
     var settings = {
         dots: false,
-        arrows: true,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
@@ -38,7 +38,7 @@ const MarketPlace = () => {
     return (
         <div>
             <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto '>
-                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-[86px] '>Top NFT Market places</h2>
+                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12  sm:mt-16 md:mt-20 lg:mt-[86px] '>Top NFT Market places</h2>
                 <div className="my-10 relative">
                     <Slider ref={slider} {...settings} >
                         <div className="w-1/4  px-6 py-3">

@@ -5,7 +5,7 @@ const ExploreNft = () => {
     return (
         <div>
             <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto '>
-                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-[86px] mb-10'>Explore top NFT</h2>
+                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12  sm:mt-16 md:mt-20 lg:mt-[86px] mb-10'>Explore top NFT</h2>
                 <div className='flex flex-col  items-center '>
                     {MapCardTwodata.map((data) => {
                         return (

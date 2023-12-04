@@ -12,6 +12,9 @@ import UpcommingCard from './components/view/UpcommingCard'
 import BackToTop from './components/common/BackToTop'
 import LoaderHome from './components/common/LoaderHome'
 import LatestNews from './components/view/LatestNews'
+import JoinOurCommunity from './components/view/JoinOurCommunity'
+import Comments from './components/view/Comments'
+import Footer from './components/common/Footer'
 function App() {
 
 
@@ -24,9 +27,12 @@ function App() {
       <MarketPlace />
       <CategoryNavTabs/>
       <UpcommingCard/>
-      {/* <LatestNews/> */}
-      <BackToTop/>
-      <LoaderHome/>
+      <LatestNews/>
+      <JoinOurCommunity/>
+      <Comments/>
+      <Footer/> 
+      {/* <BackToTop/>
+      <LoaderHome/> */}
     </div>
   )
 }

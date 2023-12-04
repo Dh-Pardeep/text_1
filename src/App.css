@@ -7,6 +7,11 @@
 .upcomming_img_two{
     background-image:url("../src/assets/img/webp/Upcoming_card_2.webp") ;
 }
+.join_our_bg_img{
+    background-image: url("../src/assets/img/webp/Join_our_community.webp");
+}
+
+
 .animation_preloader{
     animation: scope 2.5s infinite;
 }
