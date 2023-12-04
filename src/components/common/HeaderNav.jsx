@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
-import Logo from '../../assets/img/svg/logo.svg'
 const HeaderNav = () => {
     const [showNavbar, setShowNavbar] = useState(true);
     if (showNavbar) {
@@ -31,7 +30,7 @@ const HeaderNav = () => {
                     <div className='container xl:w-[1140px] 2xl:w-[1320px]  px-3 sm:px-5 xl:px-0 mx-auto'>
                         <nav className='flex justify-between items-center py-2  md:py-4'>
                             <div className='cursor-pointer flex items-center w-full lg:w-fit '>
-                                <img className='w-[220px] h-[50px] md:h-[60px]' src={Logo} alt="Logo" />
+                               <div className='bg-[#D9D9D9] w-[90px] h-[90px] '></div>
                                 <li className='relative after:content-[""] after:w-full after:h-[1px]  after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-white after:absolute after:bottom-0 after:left-0 hidden sm:block  lg:hidden ms-auto me-8'>
                                     <input type="text" className='bg-transparent font-Manrope placeholder:font-Manrope w-[204px] pb-4 px-2 text-white font-bold placeholder:text-xsm md:placeholder:text-sm leading-[170%]  placeholder:text-white placeholder:font-bold placeholder:leading-[170%]  outline-none ' placeholder='How much is my app worth?' />
                                 </li>
