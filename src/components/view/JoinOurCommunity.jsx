@@ -5,7 +5,7 @@ const JoinOurCommunity = () => {
     return (
         <div>
             <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto my-12  sm:my-16 md:my-20 lg:my-24'>
-                <div className='join_our_bg_img bg-no-repeat bg-cover bg-center rounded-3xl'>
+                <div className='join_our_bg_img bg-no-repeat bg-cover bg-center rounded-3xl'data-aos="zoom-in">
                     <div className='flex p-8 lg:p-14 items-center flex-col sm:flex-row'>
                         <div className='bg-[#D9D9D9] w-[160px] sm:w-[185px] md:w-[170px] lg:w-[206px] max-w-[193px] h-[160px] lg:h-[193px] rounded-full  '></div>
                         <div className='w-full sm:w-3/4 sm:ms-7 lg:ms-16' >

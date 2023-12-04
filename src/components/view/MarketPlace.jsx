@@ -36,10 +36,10 @@ const MarketPlace = () => {
         ]
     };
     return (
-        <div>
+        <>
             <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto '>
-                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12  sm:mt-16 md:mt-20 lg:mt-[86px] '>Top NFT Market places</h2>
-                <div className="my-10 relative">
+                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12  sm:mt-16 md:mt-20 lg:mt-[86px] 'data-aos="fade-down">Top NFT Market places</h2>
+                <div className="my-10 relative" data-aos="fade-up">
                     <Slider ref={slider} {...settings} >
                         <div className="w-1/4  px-6 py-3">
                             <div className=" min-h-[200px]  h-full max-h-[250px] border-[1px] border-solid border-[#D5D5D5] shadow-[0px_4px_4px_0px] shadow-[#C8C8C8] flex items-center justify-center rounded-3xl">
@@ -86,7 +86,7 @@ const MarketPlace = () => {
                     <button className="absolute top-2/4 -right-1 -translate-y-2/4" onClick={() => slider?.current?.slickNext()}><SliderRightIcon /></button>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

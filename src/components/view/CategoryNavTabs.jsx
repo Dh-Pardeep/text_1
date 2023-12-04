@@ -10,11 +10,11 @@ const CategoryNavTabs = () => {
     return (
         <div>
             <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto '>
-                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12 sm:mt-16 md:mt-20 lg:mt-24 mb-7 text-center'>Top NFT by Category</h2>
-                <p className='text-black opacity-70 leading-[120%] font-semibold text-sm font-Josefin max-w-[858px] mx-auto text-center mb-12  sm:mb-16 '>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12 sm:mt-16 md:mt-20 lg:mt-24 mb-7 text-center ' data-aos="fade-down">Top NFT by Category</h2>
+                <p className='text-black opacity-70 leading-[120%] font-semibold text-sm font-Josefin max-w-[858px] mx-auto text-center mb-12  sm:mb-16 'data-aos="fade-down">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
 
                 <div className=" mx-auto">
-                    <div className="flex items-center justify-center flex-wrap gap-4 md:gap-6">
+                    <div className="flex items-center justify-center flex-wrap gap-4 md:gap-6" data-aos="fade-down">
                         <div
                             className={`cursor-pointer${activeTab === 1 ? 'bg-blue-500 text-white' : 'bg-gray-300'
                                 }`}
@@ -53,7 +53,7 @@ const CategoryNavTabs = () => {
                     </div>
                     <div className="mt-12 sm:mt-16 ">
                         {activeTab === 1 && <p>
-                            <div className='flex flex-wrap justify-center'>
+                            <div className='flex flex-wrap justify-center'data-aos="zoom-in">
                                 {MapCardTabsdata.map((data) => {
                                     return (
                                         <div key={data.id} className='flex items-center justify-center w-[266px] mb-6' >
@@ -84,7 +84,7 @@ const CategoryNavTabs = () => {
                                 }
                             </div>
                         </p>}
-                        {activeTab === 2 && <p>  <div className='flex flex-wrap flex-row-reverse justify-center'>
+                        {activeTab === 2 && <p>  <div className='flex flex-wrap flex-row-reverse justify-center'data-aos="zoom-in">
                             {MapCardTabsdata.map((data) => {
                                 return (
                                     <div key={data.id} className='flex items-center justify-center w-[266px] mb-6' >
@@ -114,7 +114,7 @@ const CategoryNavTabs = () => {
                             })
                             }
                         </div></p>}
-                        {activeTab === 3 && <p>  <div className='flex flex-wrap justify-center'>
+                        {activeTab === 3 && <p>  <div className='flex flex-wrap justify-center'data-aos="zoom-in">
                             {MapCardTabsdata.map((data) => {
                                 return (
                                     <div key={data.id} className='flex items-center justify-center w-[266px] mb-6' >
@@ -144,7 +144,7 @@ const CategoryNavTabs = () => {
                             })
                             }
                         </div></p>}
-                        {activeTab === 4 && <p>  <div className='flex flex-wrap flex-row-reverse justify-center'>
+                        {activeTab === 4 && <p>  <div className='flex flex-wrap flex-row-reverse justify-center'data-aos="zoom-in">
                             {MapCardTabsdata.map((data) => {
                                 return (
                                     <div key={data.id} className='flex items-center justify-center w-[266px] mb-6' >
@@ -174,7 +174,7 @@ const CategoryNavTabs = () => {
                             })
                             }
                         </div></p>}
-                        {activeTab === 5 && <p>  <div className='flex flex-wrap justify-center'>
+                        {activeTab === 5 && <p>  <div className='flex flex-wrap justify-center'data-aos="zoom-in">
                             {MapCardTabsdata.map((data) => {
                                 return (
                                     <div key={data.id} className='flex items-center justify-center w-[266px] mb-6' >
@@ -206,7 +206,7 @@ const CategoryNavTabs = () => {
                         </div></p>}
                     </div>
                 </div>
-                <div className='text-center mt-3'>
+                <div className='text-center mt-3'data-aos="fade-down">
                     <button className='bg-black pt-1  text-white font-Josefin border-[#707070] rounded-3xl h-[36px] w-[137px] text-xmd hover:bg-white hover:text-black  border-[1px] transition-all ease-in-out duration-200 border-transparent border-solid hover:border-black' >
                         View more
                     </button>

@@ -35,8 +35,8 @@ const LatestNews = () => {
   return (
     <div>
       <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto '>
-        <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12  sm:mt-16 md:mt-20 lg:mt-[86px] '>Top NFT Market places</h2>
-        <div className='relative py-4 px-2'>
+        <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12  sm:mt-16 md:mt-20 lg:mt-[86px] 'data-aos="fade-down">Top NFT Market places</h2>
+        <div className='relative py-4 px-2'data-aos="zoom-in">
           <Slider ref={slider} {...settings}>
             <div className='w-3/4!impoertant  sm:w-1/3 px-3'>
               <div className='rounded-3xl px-6 pt-7 pb-11 border-[1px] border-solid border-[#F5F5F5] bg-white'>

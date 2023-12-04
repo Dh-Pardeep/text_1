@@ -3,13 +3,13 @@ import { MapCardTwodata } from '../../MapData';
 
 const ExploreNft = () => {
     return (
-        <div>
+        <div id='Explore'>
             <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto '>
                 <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12  sm:mt-16 md:mt-20 lg:mt-[86px] mb-10'>Explore top NFT</h2>
                 <div className='flex flex-col  items-center '>
                     {MapCardTwodata.map((data) => {
                         return (
-                            <div key={data.id} className='flex items-center justify-center  mb-3 ' >
+                            <div key={data.id} className='flex items-center justify-center  mb-3 'data-aos="zoom-in" >
                                 <div className='px-[30px] py-[20px] border-[1px] border-solid rounded-3xl border-[#F2F2F2] flex shadow-[0px_4px_4px_0px] shadow-[#C8C8C8] flex-col md:flex-row bg-white' >
                                     <div className='w-full sm:w-[355px] lg:w-[207px] h-full mx-auto'>
                                         <img className='w-full h-full object-cover rounded-3xl text-center' src={data.img} alt="img" />

@@ -3,13 +3,13 @@ import { MapCarddata } from '../../MapData';
 
 const TopNft = () => {
     return (
-        <div>
+        <div id='Profile'>
             <div className='container xl:w-[1140px] px-3 sm:px-5 xl:px-0 mx-auto '>
                 <h2 className='text-black font-bold text-[32px] md:text-[42px] lg:text-xl break-words font-Josefin mt-12 sm:mt-16 md:mt-20 lg:mt-[86px] mb-10'>Top NFT to look out for in 2022</h2>
                 <div className='flex flex-wrap justify-center'>
                     {MapCarddata.map((data) => {
                         return (
-                            <div key={data.id} className='flex items-center justify-center w-[228px] mb-1' >
+                            <div key={data.id} className='flex items-center justify-center w-[228px] mb-1  ' data-aos="zoom-in">
                                 <div className='px-[10px] py-[15px] border-[1px] border-solid rounded-3xl border-[#F2F2F2] mx-[2px] shadow-[0px_4px_4px_0px] shadow-[#C8C8C8] bg-white' >
                                     <div className=' flex items-center justify-center pb-[10px]'>
                                         <img className='w-full rounded-3xl' src={data.img} alt="img" />
